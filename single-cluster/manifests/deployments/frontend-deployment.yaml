@@ -13,6 +13,7 @@ spec:
       labels:
         app: guestbook
         tier: frontend
+        version: v1.1
     spec:
       containers:
       - name: php-redis
